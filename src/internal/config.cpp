@@ -39,7 +39,6 @@ Config::~Config()
 Config&
 Config::setPins(const Pins& pins)
 {
-  m_cfg->pin_pwdn = pins.PWDN;
   m_cfg->pin_reset = pins.RESET;
   m_cfg->pin_xclk = pins.XCLK;
   m_cfg->pin_sscb_sda = pins.SDA;

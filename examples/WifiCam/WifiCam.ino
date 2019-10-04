@@ -104,7 +104,7 @@ void setup()
   {
     using namespace esp32cam;
     Config cfg;
-    cfg.setPins(pins::AiThinker);
+    cfg.setPins(pins::M5camera);
     cfg.setResolution(hiRes);
     cfg.setBufferCount(2);
     cfg.setJpeg(80);
